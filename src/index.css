@@ -25,8 +25,8 @@ html {
   --color-primary-variant: #00ffff;
   --color-white: #fff;
   --color-light: #cbf3f0;
-  --container-width-lg: 75%;
-  --container-width-md: 85%;
+  --container-width-lg: 70%;
+  --container-width-md: 80%;
   --container-width-sm: 95%;
 }
 
@@ -103,6 +103,7 @@ img {
 }
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section h2 {
@@ -117,14 +118,14 @@ section h5 {
 }
 
 /* ============ media query (medium devices)  ================ */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
   section {
     margin-top: 6rem;
   }
-}
+} */
 
 @media (max-width: 600px) {
   .container {
@@ -132,5 +133,10 @@ section h5 {
   }
   section h2 {
     margin-bottom: 6rem;
+  }
+
+  h1,
+  h2 {
+    font-size: 2rem;
   }
 }
