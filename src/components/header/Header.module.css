@@ -35,11 +35,11 @@
   }
 } */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .header {
     height: 100vh;
   }
   .scroll__down {
     display: none;
   }
-}
+} */
