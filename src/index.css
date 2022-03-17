@@ -101,18 +101,6 @@ img {
   margin: 0 auto;
 }
 
-.header__container {
-  text-align: center;
-  height: 100%;
-  position: relative;
-}
-
-.about__container {
-  display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%;
-}
-
 section {
   margin-top: 8rem;
   height: 100vh;
@@ -127,6 +115,22 @@ section h2 {
 section h5 {
   text-align: center;
   color: val(--color-light);
+}
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.about__container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+.experiance__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
 /* ============ media query (medium devices)  ================ */

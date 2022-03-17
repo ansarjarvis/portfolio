@@ -37,6 +37,7 @@
 .about__card:hover {
   background-color: transparent;
   border-color: var(--color-primary-variant);
+  transition: all 500ms ease;
 }
 
 .about__icon {

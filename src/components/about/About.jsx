@@ -20,10 +20,10 @@ const About = () => {
               <GiAchievement className="about__icon"></GiAchievement>
               <h5>Experiance</h5>
             </article>
-            <article className={classes.about__card}>
+            {/* <article className={classes.about__card}>
               <GiAchievement className="about__icon"></GiAchievement>
               <h5>clients</h5>
-            </article>
+            </article> */}
             <article className={classes.about__card}>
               <GiAchievement className="about__icon"></GiAchievement>
               <h5>Placeholer</h5>
