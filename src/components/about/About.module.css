@@ -5,7 +5,7 @@
   background: linear-gradient(
     45deg,
     transparent,
-    var(--color-primary),
+    var(--color-white),
     transparent
   );
   display: grid;
@@ -21,10 +21,17 @@
   transform: rotate(0);
   transition: all 500ms ease;
 }
-.about__cards {
+
+img {
+  height: 23rem;
+}
+/* .about__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+} */
+.about__cards {
+  margin: 1rem 0;
 }
 .about__card {
   background-color: var(--color-bg-variant);
@@ -50,7 +57,7 @@ p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
 }
-/* 
+
 @media (max-width: 600px) {
   .about__me {
     width: 100%;
@@ -66,4 +73,4 @@ p {
   p {
     margin: 1.5rem 0;
   }
-} */
+}

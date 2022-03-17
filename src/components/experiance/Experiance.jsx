@@ -23,11 +23,19 @@ const Experiance = () => {
             </article>
             <article className={classes.experiance__details}>
               <BsFillPatchCheckFill></BsFillPatchCheckFill>
-              <h4>React</h4>
+              <h4>React JS</h4>
+            </article>
+            <article className={classes.experiance__details}>
+              <BsFillPatchCheckFill></BsFillPatchCheckFill>
+              <h4>Next JS</h4>
             </article>
             <article className={classes.experiance__details}>
               <BsFillPatchCheckFill></BsFillPatchCheckFill>
               <h4>Bootstrap</h4>
+            </article>
+            <article className={classes.experiance__details}>
+              <BsFillPatchCheckFill></BsFillPatchCheckFill>
+              <h4>Tailwind CSS</h4>
             </article>
           </div>
         </div>
@@ -41,19 +49,28 @@ const Experiance = () => {
             </article>
             <article className={classes.experiance__details}>
               <BsFillPatchCheckFill></BsFillPatchCheckFill>
-              <h4>placeholder</h4>
+              <h4>Express</h4>
+            </article>
+          </div>
+        </div>
+        <div className={classes.experiance__frontend}>
+          <h3>Cloud Infra-Architecture</h3>
+          <div className={classes.experiance__content}>
+            <article className={classes.experiance__details}>
+              <BsFillPatchCheckFill></BsFillPatchCheckFill>
+              <h4>MySQL</h4>
             </article>
             <article className={classes.experiance__details}>
               <BsFillPatchCheckFill></BsFillPatchCheckFill>
-              <h4>placeholder</h4>
+              <h4>MongoDB</h4>
             </article>
             <article className={classes.experiance__details}>
               <BsFillPatchCheckFill></BsFillPatchCheckFill>
-              <h4>placeholder</h4>
+              <h4>PostgreSQL</h4>
             </article>
             <article className={classes.experiance__details}>
               <BsFillPatchCheckFill></BsFillPatchCheckFill>
-              <h4>placeholder</h4>
+              <h4>Firebase</h4>
             </article>
           </div>
         </div>

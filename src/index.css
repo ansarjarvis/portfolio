@@ -90,14 +90,14 @@ a:hover {
   border: 1px solid var(--color-primary-variant);
 }
 
-img {
+/* img {
   display: block;
   width: 100%;
   object-fit: cover;
-}
+} */
 
 .container {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -116,6 +116,7 @@ section h5 {
   text-align: center;
   color: val(--color-light);
 }
+
 .header__container {
   text-align: center;
   height: 100%;
@@ -149,16 +150,19 @@ section h5 {
   }
 } */
 
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
+
   section h2 {
+    text-align: center;
     margin-bottom: 6rem;
   }
 
   h1,
   h2 {
     font-size: 2rem;
+    text-align: center;
   }
-} */
+}

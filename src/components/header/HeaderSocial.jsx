@@ -10,7 +10,7 @@ const HeaderSocial = () => {
       <a href="https://github.com/ansarjarvis" target="_blank">
         <BsGithub></BsGithub>
       </a>
-      <a href="https://github.com/ansarjarvis" target="_blank">
+      <a href="https://www.instagram.com/ansar_jarvis/" target="_blank">
         <AiFillInstagram></AiFillInstagram>
       </a>
       <a href="https://github.com/ansarjarvis" target="_blank">

@@ -19,6 +19,9 @@
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
+/* .header__img {
+
+} */
 
 .scroll__down {
   position: absolute;
@@ -35,11 +38,11 @@
   }
 } */
 
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
   .header {
     height: 100vh;
   }
   .scroll__down {
     display: none;
   }
-} */
+}
