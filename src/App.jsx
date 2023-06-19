@@ -16,6 +16,7 @@ let App = () => {
     {
       path: "/",
       element: <Navbar />,
+      children: [{ index: true, element: <Hero /> }],
     },
   ]);
   return (
