@@ -71,9 +71,6 @@ let Navbar = () => {
           </div>
         </div>
       </nav>
-      <main>
-        <Outlet />
-      </main>
     </>
   );
 };
