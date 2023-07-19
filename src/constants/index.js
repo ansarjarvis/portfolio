@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  dashboard,
+  homerai,
+  sociopedia,
 } from "../assets";
 
 export const navLinks = [
@@ -42,7 +45,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Developer",
     icon: web,
   },
   {
@@ -50,11 +53,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Node Developer",
     icon: backend,
   },
   {
-    title: "Machine Learning",
+    title: "Computer Vision",
     icon: creator,
   },
 ];
@@ -115,19 +118,19 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Something",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "React.js Developer",
+  //   company_name: "Something",
+  //   icon: starbucks,
+  //   iconBg: "#383E56",
+  //   date: "March 2020 - April 2021",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
   // {
   //   title: "React Native Developer",
   //   company_name: "Tesla",
@@ -142,14 +145,14 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Web Developer",
+    title: "Software Developer",
     company_name: "SimplifyNote",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -173,25 +176,25 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    name: "Sarah",
+    designation: "CDO",
+    company: "jamia ",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    name: "Saif Haider",
+    designation: "CFO",
+    company: "HSBC",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Arif Mirza",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "KPMG",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
@@ -200,7 +203,7 @@ const projects = [
   {
     name: "E-Commerce Dashboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based Dashboard that allow the admin to see all the sales and transactions of products and also can visualize the sales graphically.",
     tags: [
       {
         name: "react",
@@ -215,13 +218,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/ansarjarvis",
+    image: dashboard,
+    source_code_link: "https://github.com/ansarjarvis/admin_dashboard",
   },
   {
     name: "Homer AI (DALL-E)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Homer ai is clone inspired by OpenAI's DALL·E  With the ability to understand and translate textual prompts into visually stunning images.",
     tags: [
       {
         name: "react",
@@ -236,13 +239,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/ansarjarvis",
+    image: homerai,
+    source_code_link: "https://github.com/ansarjarvis/ai_image_generator",
   },
   {
     name: "Social Media App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This Social Media App is a vibrant and dynamic platform designed to connect people, foster meaningful interactions, and share moments that matter. With a user-friendly interface and a wide array of features",
     tags: [
       {
         name: "reactjs",
@@ -257,8 +260,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/ansarjarvis",
+    image: sociopedia,
+    source_code_link: "https://github.com/ansarjarvis/sociopedia",
   },
 ];
 
