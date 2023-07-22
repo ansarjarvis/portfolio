@@ -26,6 +26,11 @@ import {
   dashboard,
   homerai,
   sociopedia,
+  nextjs,
+  graphql,
+  postgresql,
+  instagram,
+  linkedin,
 } from "../assets";
 
 export const navLinks = [
@@ -40,6 +45,19 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+];
+
+let socialMedia = [
+  {
+    title: "Instagram",
+    socialLink: "https://www.instagram.com/ansar_jarvis/",
+    icon: instagram,
+  },
+  {
+    title: "LinkedIn",
+    socialLink: "https://www.linkedin.com/in/ansarjarvis/",
+    icon: linkedin,
   },
 ];
 
@@ -84,6 +102,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -92,28 +114,29 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Postgre SQL",
+    icon: postgresql,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
+
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "graphQL",
+    icon: graphql,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -265,4 +288,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  socialMedia,
+};

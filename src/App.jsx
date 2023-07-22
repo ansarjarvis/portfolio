@@ -14,6 +14,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import Footer from "./components/Footer";
 
 let App = () => {
   // let router = createBrowserRouter([
@@ -38,6 +39,7 @@ let App = () => {
           {/* <Feedbacks /> */}
           <div className="relative z-0">
             <Contact />
+            <Footer />
             <StarsCanvas />
           </div>
         </div>
