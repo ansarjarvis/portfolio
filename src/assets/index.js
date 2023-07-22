@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import alogo from "./alogo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,6 +21,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
+import postgresql from "./tech/postgresql.png";
+import graphql from "./tech/graphql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -34,7 +38,11 @@ import dashboard from "./dashboard.png";
 import homerai from "./homerai.png";
 import sociopedia from "./sociopedia.png";
 
+import instagram from "./social/instagram.png";
+import linkedin from "./social/linkedin.png";
+
 export {
+  alogo,
   logo,
   backend,
   creator,
@@ -66,4 +74,9 @@ export {
   dashboard,
   homerai,
   sociopedia,
+  nextjs,
+  postgresql,
+  graphql,
+  instagram,
+  linkedin,
 };
