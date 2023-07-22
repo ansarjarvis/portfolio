@@ -1,7 +1,7 @@
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
-import { Link, Outlet } from "react-router-dom";
+import { menu, close, alogo } from "../assets";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 let Navbar = () => {
@@ -21,10 +21,11 @@ let Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-            <p className="text-white text-[18px] font-bold cursor-pointer flex">
-              Ansar &nbsp;<span className="sm:block hidden">Jarvis</span>
-            </p>
+            <img src={alogo} alt="logo" className="w-21 h-10 object-contain" />
+            {/* <p className="text-white text-[18px] font-bold cursor-pointer flex">
+              ./ansarjarvis &nbsp;
+              <span className="sm:block hidden">Jarvis</span>
+            </p> */}
           </Link>
           <ul className="list-none hidden sm:flex flex-row gap-10">
             {navLinks.map((args) => (
