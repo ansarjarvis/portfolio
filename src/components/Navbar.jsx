@@ -2,15 +2,36 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close, alogo } from "../assets";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 let Navbar = () => {
   let [active, setActive] = useState("");
   let [toggle, setToggle] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      if (scrollTop > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
       <nav
-        className={`${styles.paddingX} w-full items-center py-5 fixed top-0 z-20 bg-primary`}
+        className={`${
+          styles.paddingX
+        } w-full flex items-center py-5 fixed top-0 z-20 ${
+          scrolled ? "bg-primary opacity-95" : "bg-transparent"
+        }`}
       >
         <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
           <Link
@@ -21,7 +42,7 @@ let Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={alogo} alt="logo" className="w-21 h-10 object-contain" />
+            <img src={alogo} alt="logo" className="w-18 h-10 object-contain" />
             {/* <p className="text-white text-[18px] font-bold cursor-pointer flex">
               ./ansarjarvis &nbsp;
               <span className="sm:block hidden">Jarvis</span>
