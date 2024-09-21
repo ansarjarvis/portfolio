@@ -37,11 +37,20 @@ import tripguide from "./tripguide.png";
 import dashboard from "./dashboard.png";
 import homerai from "./homerai.png";
 import sociopedia from "./sociopedia.png";
+import cheeseit from "./cheeseit.png";
+import profanity from "./profanity.png";
+import chatwithpdf from "./chatwithpdf.png";
 
 import instagram from "./social/instagram.png";
 import linkedin from "./social/linkedin.png";
+import demo from "./demo.png";
+import githubSocial from "./githubSocial.png";
 
 export {
+  profanity,
+  githubSocial,
+  demo,
+  chatwithpdf,
   alogo,
   logo,
   backend,
@@ -79,4 +88,5 @@ export {
   graphql,
   instagram,
   linkedin,
+  cheeseit,
 };

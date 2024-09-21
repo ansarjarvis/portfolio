@@ -31,6 +31,12 @@ import {
   postgresql,
   instagram,
   linkedin,
+  cheeseit,
+  profanity,
+  chatwithpdf,
+  demo,
+  github,
+  githubSocial,
 } from "../assets";
 
 export const navLinks = [
@@ -43,12 +49,21 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "project",
+    title: "Project",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
 ];
 
 let socialMedia = [
+  {
+    title: "Instagram",
+    socialLink: "https://github.com/ansarjarvis/",
+    icon: githubSocial,
+  },
   {
     title: "Instagram",
     socialLink: "https://www.instagram.com/ansar_jarvis/",
@@ -63,7 +78,7 @@ let socialMedia = [
 
 const services = [
   {
-    title: "Full Stack Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
@@ -75,7 +90,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Computer Vision",
+    title: "ML / AI",
     icon: creator,
   },
 ];
@@ -168,16 +183,17 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Software Developer",
+    title: "Software Developer Intern",
     company_name: "SimplifyNote",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Nov 2022 - Present",
+    date: "Nov 2022 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Architected and implemented an innovative product that automates note-taking by capturing notes through scrolling and saving them into documents, integrated with OCR to reduce manual note-taking time by 70%",
+
+      "Developed and implemented a new payment processing method using Stripe, increasing successful transactions by 30% and improving overall payment reliability.",
+
+      "Led the development of SimplifyNote’s application using React.js and Node.js, driving a 25% surge in site traffic and enhancing user engagement, significantly contributing to the overall success and growth of the product.",
     ],
   },
   // {
@@ -224,6 +240,73 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Chat with PDF",
+    description:
+      "Led the end-to-end development of a Next.js chat with PDF application, implementing a scalable SaaS modelwith Stripe-powered payment plans. Demonstrated expertise in full-stack development and project management.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "langchain",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: chatwithpdf,
+    source_code_link: "https://github.com/ansarjarvis/chat-with-pdf",
+  },
+  {
+    name: "Profanity API",
+    description:
+      "Architected and implemented a profanity filtering API leveraging Hono.js for backend serverless functions, improving manual content moderation capabilities for web applications.",
+    tags: [
+      {
+        name: "Hono.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: profanity,
+    source_code_link: "https://github.com/ansarjarvis/admin_dashboard",
+  },
+  {
+    name: "CheeseIt",
+    description:
+      "Independently built a Next.js-based App, replicating core functionalities of Reddit. This Next.js application allows users to create, edit and delete subreddits, offering a dynamic user experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cheeseit,
+    source_code_link: "https://cheeseit.vercel.app/",
+  },
+  {
     name: "E-Commerce Dashboard",
     description:
       "Web-based Dashboard that allow the admin to see all the sales and transactions of products and also can visualize the sales graphically.",
@@ -264,27 +347,6 @@ const projects = [
     ],
     image: homerai,
     source_code_link: "https://github.com/ansarjarvis/ai_image_generator",
-  },
-  {
-    name: "Social Media App",
-    description:
-      "This Social Media App is a vibrant and dynamic platform designed to connect people, foster meaningful interactions, and share moments that matter. With a user-friendly interface and a wide array of features",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: sociopedia,
-    source_code_link: "https://github.com/ansarjarvis/sociopedia",
   },
 ];
 

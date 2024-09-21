@@ -42,7 +42,7 @@ let Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={alogo} alt="logo" className="w-18 h-10 object-contain" />
+            <img src={alogo} alt="logo" className="w-18 h-10 object-contain " />
             {/* <p className="text-white text-[18px] font-bold cursor-pointer flex">
               ./ansarjarvis &nbsp;
               <span className="sm:block hidden">Jarvis</span>
